@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dynamically updating classification tree plots in rpart using shiny
+title: dynamic classification tree plots using rpart & shiny
 date: 2015-07-15 15:09:00
 description: an example of a blog post with some code
 ---

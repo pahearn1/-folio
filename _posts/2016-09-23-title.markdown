@@ -4,7 +4,11 @@ title: creating dynamic classification trees in R using dplyr, rpart & shiny
 date: 2016-09-23
 description: using a shiny app embedded into an RMarkdown html document that allows users to observe how a classification tree changes as the user selects / deselects different attributes
 ---
-This RMarkdown code block will produce an embedded <a href="http://shiny.rstudio.com">Shiny</a> application that allows users to chose any combination of attributes in a dataset
+This <a href="http://rmarkdown.rstudio.com" target="_blank">R Markdown</a>code block will produce an embedded <a href="http://shiny.rstudio.com" target="_blank">Shiny</a> application that allows users to chose any combination of attributes in a dataset and immediately see the resulting tree plotted using the <a href="http://www.milbo.org/doc/prp.pdf" target="_blank">rpart.plot</a>package. The resulting application will look something like this:
+
+<div class="img_row">
+	<img class="col three" src="/img/dynam_tree.tiff">
+</div>
 
 {% highlight c++ %}
 ---

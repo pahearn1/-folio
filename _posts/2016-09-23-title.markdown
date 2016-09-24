@@ -4,11 +4,7 @@ title: creating dynamic classification trees in R using dplyr, rpart & shiny
 date: 2016-09-23
 description: using a shiny app embedded into an RMarkdown html document that allows users to observe how a classification tree changes as the user selects / deselects different attributes
 ---
-This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:
-{% raw  %}
-{% highlight c++ %}  <br/> code code code <br/> {% endhighlight %}{% endraw %}
-
-Produces something like this:
+This RMarkdown code block will produce an embedded <a href="http://shiny.rstudio.com">Shiny</a> application that allows users to chose any combination of attributes in a dataset
 
 {% highlight c++ %}
 ---

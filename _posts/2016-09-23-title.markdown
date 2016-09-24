@@ -8,7 +8,7 @@ This <a href="http://rmarkdown.rstudio.com" target="_blank">R Markdown</a> code 
 
 <div class="img_row">
 	<img class="col three" src="/img/dynam_tree.jpg">
-</div>
+
 
 {% highlight c++ %}
 ---

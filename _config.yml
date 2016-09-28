@@ -11,9 +11,10 @@ github_username:  pahearn1
 # Build settings
 markdown: kramdown
 
-highlighter: rogue
+highlighter: rouge
 
 # Pagination
+gems: [jekyll-paginate]
 paginate: 15
 paginate_path: "/blog/page:num/"
 

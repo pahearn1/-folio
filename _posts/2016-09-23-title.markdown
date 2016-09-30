@@ -4,7 +4,7 @@ title: creating dynamic classification trees in r using dplyr, rpart & shiny
 date: 2016-09-23
 description: using a shiny app embedded into an RMarkdown html document that allows users to observe how a classification tree changes as the user selects / deselects different attributes
 ---
-This <a href="http://rmarkdown.rstudio.com" target="_blank">R Markdown</a> code block will produce an R Markdown html document with an embedded <a href="http://shiny.rstudio.com" target="_blank">Shiny</a> app that allows the user to chose any combination of attributes from a dataset and immediately see the resulting tree plotted using the <a href="http://www.milbo.org/doc/prp.pdf" target="_blank">rpart.plot</a> package.
+The following <a href="http://rmarkdown.rstudio.com" target="_blank">R Markdown</a> code block will produce an R Markdown html document with an embedded <a href="http://shiny.rstudio.com" target="_blank">Shiny</a> app that allows the user to chose any combination of attributes from a dataset and immediately see the resulting tree plotted using the <a href="http://www.milbo.org/doc/prp.pdf" target="_blank">rpart.plot</a> package.
 
 Once loaded, the default application will generate an rpart tree diagram using the attributes "plas" & "mass" from the pima indians <a href="https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes" target="_blank">Pima Indians Diabetes Dataset</a> and look like this:
 
@@ -18,22 +18,22 @@ Different attributes can be utilized by selecting / de-selecting them in the att
 	<img src="/img/dynam_tree.jpg">
 </div>
 
-*Note that not all attributes will force the underlying CART algorithm to generate a split.*
+*Note that not all attributes will force the underlying CART algorithm to generate a new split.*
 
 To reproduce this application, open a new R Markdown document in RStudio:
 
 
 <img src="/img/screen_shot1.png" height="205" width="613">
 
-Select Shiny from the options on the left create a title for your document and select OK:
+Select "Shiny" from the options on the left, create a title for your document and select "OK":
 
 <img src="/img/screen_shot2.png" height="350" width="465">
 
-Clear all the contents from the file that opens and copy the entire code block included at the bottom of this post below into the blank document and save the file. Note the file exension should be .Rmd. Select Run Document:
+Clear all the contents from the file that opens and copy the entire code block (included at the bottom of this post) below into the blank R Markdown document and save the file. Note the file exension should be .Rmd. Select "Run Document":
 
 <img src="/img/screen_shot3.png" height="300" width="600">
 
-An R Markdown document with the embedded Shiny classification tree app should launch:
+An R Markdown document with comments, code and the embedded Shiny classification tree app should launch:
 
 <img src="/img/screen_shot4.png" height="1355" width="600">
 

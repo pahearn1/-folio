@@ -2,7 +2,7 @@
 title: patrick ahearn
 email: patrick.ahearn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  mostly about data
+
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 twitter_username: PatrickAhearn1
